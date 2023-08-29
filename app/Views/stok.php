@@ -36,7 +36,7 @@
                     <tr>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">No</th>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Daging</th>
-                        <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Stok Tersisa</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Stok Tersisa</th>
                     </tr>
                 </thead>
                 <tbody>
