@@ -1,0 +1,130 @@
+INFO - 2023-08-10 15:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:01:43 --> Undefined array key "id"
+in APPPATH\Models\StokModel.php on line 44.
+ 1 APPPATH\Models\StokModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-10 15:02:05 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 47.
+ 1 APPPATH\Models\StokModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-10 15:07:25 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 47.
+ 1 APPPATH\Models\StokModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-10 15:08:25 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 49.
+ 1 APPPATH\Models\StokModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:09:03 --> Call to undefined method App\Models\MasukModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Models\MasukModel.php(55): CodeIgniter\Model->__call()
+ 2 APPPATH\Models\StokModel.php(25): App\Models\MasukModel->getTotalDagingMasuk()
+ 3 APPPATH\Controllers\MasukController.php(62): App\Models\StokModel->updateStokByJenisDaging()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:10:45 --> Call to undefined method App\Models\KeluarModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Models\KeluarModel.php(46): CodeIgniter\Model->__call()
+ 2 APPPATH\Models\StokModel.php(26): App\Models\KeluarModel->getTotalDagingKeluar()
+ 3 APPPATH\Controllers\MasukController.php(62): App\Models\StokModel->updateStokByJenisDaging()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:11:11 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 30.
+ 1 APPPATH\Models\StokModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\MasukController.php(62): App\Models\StokModel->updateStokByJenisDaging()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:12:31 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 30.
+ 1 APPPATH\Models\StokModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\MasukController.php(62): App\Models\StokModel->updateStokByJenisDaging()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:14:48 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 30.
+ 1 APPPATH\Models\StokModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\MasukController.php(62): App\Models\StokModel->updateStokByJenisDaging()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:15:00 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 49.
+ 1 APPPATH\Models\StokModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:15:23 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 49.
+ 1 APPPATH\Models\StokModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\StokController.php(33): App\Models\StokModel->getStokDagingData()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StokController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-10 15:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-10 15:34:11 --> Trying to access array offset on value of type null
+in APPPATH\Models\StokModel.php on line 30.
+ 1 APPPATH\Models\StokModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\MasukController.php(65): App\Models\StokModel->updateStokByJenisDaging()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MasukController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')

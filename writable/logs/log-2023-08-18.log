@@ -1,0 +1,261 @@
+CRITICAL - 2023-08-18 02:14:36 --> Attempt to read property "bulan" on array
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:21:09 --> Attempt to read property "bulan" on array
+in APPPATH\Views\dashboard.php on line 114.
+ 1 APPPATH\Views\dashboard.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:21:24 --> Attempt to read property "details" on array
+in APPPATH\Views\dashboard.php on line 126.
+ 1 APPPATH\Views\dashboard.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:21:46 --> Attempt to read property "details" on array
+in APPPATH\Views\dashboard.php on line 126.
+ 1 APPPATH\Views\dashboard.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:29:18 --> Call to a member function query() on null
+in APPPATH\Models\LaporanModel.php on line 15.
+ 1 APPPATH\Controllers\Home.php(22): App\Models\LaporanModel->get_laporan()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:29:44 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dashboard.php on line 110.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Home.php(25): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:30:12 --> Undefined property: mysqli::$bulan
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+ERROR - 2023-08-18 02:33:19 --> mysqli_sql_exception: Unknown column 'nama_jenis_daging' in 'field list' in C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\app\Models\LaporanModel.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\app\Controllers\Home.php(22): App\Models\LaporanModel->get_laporan()
+#5 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-08-18 02:33:19 --> Unknown column 'nama_jenis_daging' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\LaporanModel.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\Home.php(22): App\Models\LaporanModel->get_laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+ERROR - 2023-08-18 02:34:07 --> mysqli_sql_exception: Unknown column 'nama_jenis_daging' in 'field list' in C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\app\Models\LaporanModel.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\app\Controllers\Home.php(22): App\Models\LaporanModel->get_laporan()
+#5 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\kodin\OneDrive\Documents\Victor\Koko Jo\inventaris-daging\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-08-18 02:34:07 --> Unknown column 'nama_jenis_daging' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\LaporanModel.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\Home.php(22): App\Models\LaporanModel->get_laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:34:15 --> Undefined property: mysqli::$bulan
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:40:15 --> Undefined property: mysqli::$bulan
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:46:02 --> Attempt to read property "bulan" on array
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:56:03 --> Attempt to read property "bulan" on array
+in APPPATH\Views\dashboard.php on line 110.
+ 1 APPPATH\Views\dashboard.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 02:57:38 --> Undefined array key "nama_jenis_daging"
+in APPPATH\Views\dashboard.php on line 128.
+ 1 APPPATH\Views\dashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 03:01:24 --> Undefined array key "nama_jenis"
+in APPPATH\Views\dashboard.php on line 128.
+ 1 APPPATH\Views\dashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-18 03:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 06:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 07:00:40 --> Call to undefined method App\Models\MasukModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+INFO - 2023-08-18 07:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 07:00:45 --> Call to undefined method App\Models\MasukModel::sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 07:03:11 --> Undefined variable $alert
+in APPPATH\Views\dashboard.php on line 10.
+ 1 APPPATH\Views\dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(55): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 07:05:21 --> Undefined variable $alert
+in APPPATH\Views\dashboard.php on line 10.
+ 1 APPPATH\Views\dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(56): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
+CRITICAL - 2023-08-18 07:05:33 --> Undefined variable $alert
+in APPPATH\Views\dashboard.php on line 10.
+ 1 APPPATH\Views\dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(56): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\kodin\\OneDrive\\Documents\\Victor\\Koko Jo\\inventaris-daging\\public\\index.php')
