@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="form-control-label" for="basic-url">Jenis Daging</label>
+        <label class="form-control-label" for="basic-url">Deskripsi Daging</label>
         <div class="input-group">
           <textarea class="form-control" aria-label="With textarea" name="desc"></textarea>
         </div>
