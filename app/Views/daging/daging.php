@@ -40,11 +40,11 @@
       <table class="table align-items-center mb-0">
         <thead>
           <tr>
-            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">No</th>
-            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
-            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
-            <th class="text-center text-uppercase text-secondary text-s font-weight-bolder opacity-7">Deskripsi</th>
-            <th class="text-secondary opacity-7 ps-2">Aksi</th>
+            <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">No</th>
+            <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
+            <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
+            <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Deskripsi</th>
+            <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Aksi</th>
           </tr>
         </thead>
         <tbody>

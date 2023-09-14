@@ -27,10 +27,10 @@ class StokController extends BaseController
 
 
         $data = [
-            'title' => 'Stok Daging',
+            'title' => 'Stok Bahan Baku',
             'menu' => 'stok',
-            'page' => 'Stok Daging',
-            'subtitle' => 'Data Stok Daging',
+            'page' => 'Stok Bahan Baku',
+            'subtitle' => 'Data Stok Bahan Baku',
             'stok' => $this->stokmodel->findAll()
         ];
 

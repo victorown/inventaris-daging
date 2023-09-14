@@ -158,10 +158,10 @@
                           <table class="table">
                               <thead>
                                   <tr>
-                                      <th>Bahan Baku</th>
-                                      <th>Jenis Bahan Baku</th>
-                                      <th>Bahan Baku Masuk</th>
-                                      <th>Bahan Baku Keluar</th>
+                                      <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
+                                      <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
+                                      <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku Masuk</th>
+                                      <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku Keluar</th>
                                   </tr>
                               </thead>
                               <tbody>';

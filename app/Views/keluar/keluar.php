@@ -17,7 +17,6 @@
 
     .table td p {
         margin-bottom: 5px;
-        /* Margin antara paragraf */
     }
 </style>
 
@@ -42,9 +41,9 @@
                     <tr>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">No</th>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Daging</th>
-                        <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Jumlah</th>
-                        <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Tanggal</th>
-                        <th class="text-secondary text-uppercase opacity-7 text-xs ps-2 font-weight-bolder">Aksi</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jumlah</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Tanggal</th>
+                        <th class="text-secondary text-uppercase text-xs font-weight-bolder opacity-7 ps-2">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>

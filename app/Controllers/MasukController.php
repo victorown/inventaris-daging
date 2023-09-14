@@ -39,10 +39,10 @@ class MasukController extends BaseController
     public function add()
     {
         $data = [
-            'title' => 'Tambah Data Daging Masuk',
+            'title' => 'Tambah Data Bahan Baku Masuk',
             'menu' => 'masuk',
-            'page' => 'Info Masuk',
-            'subtitle' => 'Tambah Data Daging Masuk',
+            'page' => 'Info Bahan Baku Masuk',
+            'subtitle' => 'Tambah Data Bahan Baku Masuk',
             'jenis' => $this->dagingModel->findAll(),
         ];
 

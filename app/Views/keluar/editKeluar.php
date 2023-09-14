@@ -27,7 +27,7 @@
     <input type="hidden" name="id" value="<?= $keluar->id ?>">
     <div class="card px-3 py-2">
       <div class="form-group mb-3">
-        <label class="form-control-label" for="basic-url">Jenis Daging</label>
+        <label class="form-control-label" for="basic-url">Bahan Baku</label>
         <select class="form-control" name="id_jenis_daging">
           <option>-- Pilih Bahan Baku --</option>
           <?php foreach ($daging as $j) : ?>

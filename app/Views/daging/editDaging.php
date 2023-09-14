@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="form-control-label" for="basic-url">Jenis Daging</label>
+        <label class="form-control-label" for="basic-url">Deskripsi Bahan Baku</label>
         <div class="input-group">
           <textarea class="form-control" aria-label="With textarea" name="desc"><?= $daging['desc']; ?></textarea>
         </div>
