@@ -26,7 +26,13 @@
     <?= csrf_field(); ?>
     <div class="card px-3 py-2">
       <div class="form-group mb-3">
-        <label class="form-control-label" for="basic-url">Jenis Daging</label>
+        <label class="form-control-label" for="basic-url">Nama Bahan Baku</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" name="bahan_baku">
+        </div>
+      </div>
+      <div class="form-group mb-3">
+        <label class="form-control-label" for="basic-url">Jenis Bahan Baku</label>
         <div class="input-group">
           <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" name="nama_jenis">
         </div>

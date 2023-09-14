@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class MasukModel extends Model
 {
-    protected $table = 'info_daging_masuk';
+    protected $table = 'bb_masuk';
     protected $primaryKey = 'id';
     protected $allowedFields = ['tanggal', 'jumlah', 'id_jenis_daging'];
 
@@ -21,18 +21,19 @@ class MasukModel extends Model
 
     public function gabs($id)
     {
-        return $this->table('info_daging_masuk')
-            ->select('info_daging_masuk.*, jenis_daging.nama_jenis')
-            ->join('jenis_daging', 'jenis_daging.iddaging = info_daging_masuk.id_jenis_daging')
-            ->where('info_daging_masuk.id', $id)
+        return $this->table('bb_masuk')
+            ->select('bb_masuk.*, bahan_baku.bahan_baku, bahan_baku.nama_jenis')
+            ->join('bahan_baku', 'bahan_baku.id = bb_masuk.id_jenis_daging')
+            ->where('bb_masuk.id', $id)
             ->get()
             ->getRow();
     }
 
     public function hapus($id)
     {
-        $db = \Config\Database::connect();
+        // $this->db = \Config\Database::connect();
         $builder = $this->db->table($this->table);
+        dd($id);
         $builder->delete(['id' => $id]);
         $query = $builder->get();
 
@@ -43,8 +44,8 @@ class MasukModel extends Model
     {
         $builder = $this->db->table($this->table);
         $builder->select('*');
-        $builder->join('jenis_daging', 'jenis_daging.iddaging = info_daging_masuk.id_jenis_daging', 'left');
-        $builder->select('jenis_daging.nama_jenis');
+        $builder->join('bahan_baku', 'bahan_baku.id = bb_masuk.id_jenis_daging', 'left');
+        $builder->select('bb_masuk.*, bahan_baku.bahan_baku, bahan_baku.nama_jenis');
 
         $query = $builder->get();
         return $query->getResult();
@@ -52,6 +53,6 @@ class MasukModel extends Model
 
     public function getTotalDagingMasuk($jenisDagingId)
     {
-        return $this->selectSum('jumlah')->where('id_jenis_daging', $jenisDagingId)->get()->getRowArray();
+        return $this->selectSum('jumlah')->where('id_bahan_baku', $jenisDagingId)->get()->getRowArray();
     }
 }

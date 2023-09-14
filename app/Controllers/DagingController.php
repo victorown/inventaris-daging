@@ -19,10 +19,10 @@ class DagingController extends BaseController
     {
         $daging = $this->dagingModel->findAll();
         $data = [
-            'title' => 'Data Daging',
-            'menu' => 'daging',
-            'page' => 'Daging',
-            'subtitle' => 'Data Daging',
+            'title' => 'Data Bahan Baku',
+            'menu' => 'bahan baku',
+            'page' => 'Bahan Baku',
+            'subtitle' => 'Data Bahan Baku',
             'daging' => $daging
         ];
 
@@ -33,10 +33,10 @@ class DagingController extends BaseController
     public function add()
     {
         $data = [
-            'title' => 'Tambah Daging',
-            'menu' => 'daging',
-            'page' => 'Daging',
-            'subtitle' => 'Tambah Data Daging',
+            'title' => 'Tambah Bahan Baku',
+            'menu' => 'bahan baku',
+            'page' => 'Bahan Baku',
+            'subtitle' => 'Tambah Data Bahan Baku',
         ];
 
         return view('daging/addDaging', $data);
@@ -45,6 +45,7 @@ class DagingController extends BaseController
     public function save()
     {
         $this->dagingModel->save([
+            'bahan_baku' => $this->request->getVar('bahan_baku'),
             'nama_jenis' => $this->request->getVar('nama_jenis'),
             'desc' => $this->request->getVar('desc')
         ]);
@@ -62,10 +63,10 @@ class DagingController extends BaseController
     public function edit($id)
     {
         $data = [
-            'title' => 'Edit Daging',
-            'menu' => 'Daging',
-            'page' => 'Daging',
-            'subtitle' => 'Edit Data Daging',
+            'title' => 'Edit Bahan Baku',
+            'menu' => 'bahan baku',
+            'page' => 'Bahan Baku',
+            'subtitle' => 'Edit Data Bahan Baku',
             'daging' => $this->dagingModel->getDaging($id)
         ];
 
@@ -75,7 +76,8 @@ class DagingController extends BaseController
     public function update($id)
     {
         $data = [
-            'iddaging' => $id,
+            'id' => $id,
+            'bahan_baku' => $this->request->getVar('bahan_baku'),
             'nama_jenis' => $this->request->getVar('nama_jenis'),
             'desc' => $this->request->getVar('desc')
         ];

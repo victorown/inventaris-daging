@@ -8,8 +8,8 @@
 </style>
 
 <?php foreach ($jenis_daging as $jenis) : ?>
-  <?php if (isset($alert[$jenis['iddaging']])) : ?>
-    <div class="alert alert-danger"><?= $alert[$jenis['iddaging']] ?></div>
+  <?php if (isset($alert[$jenis['id']])) : ?>
+    <div class="alert alert-danger"><?= $alert[$jenis['id']] ?></div>
   <?php endif; ?>
 <?php endforeach; ?>
 
@@ -23,7 +23,7 @@
           <div class="col-8">
             <div class="numbers">
               <p class="text-sm mb-0 text-capitalize font-weight-bold">
-                Jenis Daging
+                Bahan Baku
               </p>
               <h5 class="font-weight-bolder mb-0">
                 <?= $jumlah_daging ?>
@@ -47,7 +47,7 @@
           <div class="col-8">
             <div class="numbers">
               <p class="text-sm mb-0 text-capitalize font-weight-bold">
-                Jumlah daging Masuk
+                Bahan Baku Masuk
               </p>
               <h5 class="font-weight-bolder mb-0">
                 <?= $masuk ?>
@@ -71,7 +71,7 @@
           <div class="col-8">
             <div class="numbers">
               <p class="text-sm mb-0 text-capitalize font-weight-bold">
-                Jumlah Daging Keluar
+                Bahan Baku Keluar
               </p>
               <h5 class="font-weight-bolder mb-0">
                 <?= $keluar ?>
@@ -158,15 +158,17 @@
                           <table class="table">
                               <thead>
                                   <tr>
-                                      <th>Nama Jenis</th>
-                                      <th>Total Daging Masuk</th>
-                                      <th>Total Daging Keluar</th>
+                                      <th>Bahan Baku</th>
+                                      <th>Jenis Bahan Baku</th>
+                                      <th>Bahan Baku Masuk</th>
+                                      <th>Bahan Baku Keluar</th>
                                   </tr>
                               </thead>
                               <tbody>';
                   }
                   echo '
                                   <tr>
+                                      <td>' . $detail['bahan_baku'] . '</td>
                                       <td>' . $detail['nama_jenis'] . '</td>
                                       <td>' . $detail['total_daging_masuk'] . '</td>
                                       <td>' . $detail['total_daging_keluar'] . '</td>

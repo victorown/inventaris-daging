@@ -22,12 +22,18 @@
 </style>
 
 <div class="row">
-  <form action="/updateDaging/<?= $daging['iddaging'] ?>" method="POST" enctype="multipart/form-data">
+  <form action="/updateDaging/<?= $daging['id'] ?>" method="POST" enctype="multipart/form-data">
     <?= csrf_field(); ?>
-    <input type="hidden" name="id" value="<?= $daging['iddaging'] ?>">
+    <input type="hidden" name="id" value="<?= $daging['id'] ?>">
     <div class="card px-3 py-2">
       <div class="form-group mb-3">
-        <label class="form-control-label" for="basic-url">Jenis Daging</label>
+        <label class="form-control-label" for="basic-url">Nama Bahan Baku</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" value="<?= $daging['bahan_baku']; ?>" name="nama_jenis">
+        </div>
+      </div>
+      <div class="form-group mb-3">
+        <label class="form-control-label" for="basic-url">Jenis Bahan Baku</label>
         <div class="input-group">
           <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" value="<?= $daging['nama_jenis']; ?>" name="nama_jenis">
         </div>

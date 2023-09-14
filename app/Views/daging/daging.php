@@ -29,7 +29,7 @@
 
 <div class="row mb-2">
   <div class="">
-    <a href="addDaging" type="button" class="btn btn-warning"><i class="fas fa-plus pe-2"></i> Tambah jenis danging</a>
+    <a href="addDaging" type="button" class="btn btn-warning"><i class="fas fa-plus pe-2"></i> Tambah bahan baku</a>
   </div>
 </div>
 
@@ -41,7 +41,8 @@
         <thead>
           <tr>
             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">No</th>
-            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Jenis Daging</th>
+            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
+            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
             <th class="text-center text-uppercase text-secondary text-s font-weight-bolder opacity-7">Deskripsi</th>
             <th class="text-secondary opacity-7 ps-2">Aksi</th>
           </tr>
@@ -50,6 +51,7 @@
           <?php foreach ($daging as $x => $d) : ?>
             <tr>
               <td><?= $x + 1 ?></td>
+              <td><?= $d['bahan_baku'] ?></td>
               <td><?= $d['nama_jenis'] ?></td>
               <td>
                 <p class="text-xs font-weight-bold mb-0">
@@ -59,12 +61,12 @@
               <td>
                 <div class="d-flex justify-content-start">
                   <div class="me-2">
-                    <a href="editDaging/<?= $d['iddaging'] ?>" class="btn btn-warning btn-xs font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" type="button">
+                    <a href="editDaging/<?= $d['id'] ?>" class="btn btn-warning btn-xs font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" type="button">
                       Edit
                     </a>
                   </div>
                   <div class="me-2">
-                    <a href="deleteDaging/<?= $d['iddaging'] ?>" class="btn btn-danger btn-xs font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" type="button" onclick="return confirm('Apakah anda yakin?')">
+                    <a href="deleteDaging/<?= $d['id'] ?>" class="btn btn-danger btn-xs font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" type="button" onclick="return confirm('Apakah anda yakin?')">
                       Hapus
                     </a>
                   </div>

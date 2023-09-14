@@ -24,14 +24,12 @@ class KeluarController extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Daging Keluar',
+            'title' => 'Bahan Baku Keluar',
             'menu' => 'keluar',
-            'page' => 'Info Keluar',
-            'subtitle' => 'Data Daging Keluar',
+            'page' => 'Info Bahan Baku Keluar',
+            'subtitle' => 'Data Bahan Baku Keluar',
             'keluar' => $this->dagingkeluar->gabs_show()
         ];
-
-        // dd($data);
 
         return view('keluar/keluar', $data);
     }
@@ -39,10 +37,10 @@ class KeluarController extends BaseController
     public function add()
     {
         $data = [
-            'title' => 'Tambah Data Daging Masuk',
+            'title' => 'Tambah Data Bahan Baku Keluar',
             'menu' => 'keluar',
-            'page' => 'Info Keluar',
-            'subtitle' => 'Tambah Data Daging Keluar',
+            'page' => 'Info Bahan Baku Keluar',
+            'subtitle' => 'Tambah Data Bahan Baku Keluar',
             'jenis' => $this->dagingmodel->findAll(),
         ];
 
@@ -71,12 +69,11 @@ class KeluarController extends BaseController
 
     public function edit($id)
     {
-
         $data = [
-            'title' => 'Edit Daging Keluar',
+            'title' => 'Edit Bahan Baku Keluar',
             'menu' => 'keluar',
-            'page' => 'Info Keluar',
-            'subtitle' => 'Edit Data Daging Keluar',
+            'page' => 'Info Bahan Baku Keluar',
+            'subtitle' => 'Edit Data Bahan Baku Keluar',
             'keluar' => $this->dagingkeluar->gabs_edit($id),
             'daging' => $this->dagingmodel->findAll()
         ];

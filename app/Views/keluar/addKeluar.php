@@ -27,7 +27,7 @@
                 <select class="form-control" name="id_jenis_daging">
                     <option>-- Pilih Jenis Daging --</option>
                     <?php foreach ($jenis as $j) : ?>
-                        <option value="<?= $j['iddaging'] ?>"><?= $j['nama_jenis'] ?></option>
+                        <option value="<?= $j['id'] ?>"><?= $j['bahan_baku'] ?> - <?= $j['nama_jenis'] ?></option>
                     <?php endforeach ?>
                 </select>
             </div>

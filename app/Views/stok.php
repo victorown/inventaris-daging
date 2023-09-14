@@ -35,7 +35,8 @@
                 <thead>
                     <tr>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">No</th>
-                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Daging</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Stok Tersisa</th>
                     </tr>
                 </thead>
@@ -43,6 +44,7 @@
                     <?php foreach ($stok as $x => $d) : ?>
                         <tr>
                             <td><?= $x + 1 ?></td>
+                            <td><?= $d['bahan_baku'] ?></td>
                             <td><?= $d['nama_jenis'] ?></td>
                             <td><?= $d['stok'] ?></td>
                         </tr>

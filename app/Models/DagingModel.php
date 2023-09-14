@@ -6,9 +6,9 @@ use CodeIgniter\Model;
 
 class DagingModel extends Model
 {
-    protected $table = 'jenis_daging';
-    protected $primaryKey = 'iddaging';
-    protected $allowedFields = ['nama_jenis', 'desc'];
+    protected $table = 'bahan_baku';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['bahan_baku', 'nama_jenis', 'desc'];
 
     public function getDaging($id = false)
     {
@@ -16,6 +16,6 @@ class DagingModel extends Model
             return $this->findAll();
         }
 
-        return $this->where(['iddaging' => $id])->first();
+        return $this->where(['id' => $id])->first();
     }
 }

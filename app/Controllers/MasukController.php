@@ -23,12 +23,13 @@ class MasukController extends BaseController
 
     public function index()
     {
+
         $masuk = $this->dagingmasuk->gabs_nama_jenis();
         $data = [
-            'title' => 'Daging Masuk',
+            'title' => 'Bahan Baku Masuk',
             'menu' => 'masuk',
-            'page' => 'Info Masuk',
-            'subtitle' => 'Data Daging Masuk',
+            'page' => 'Info Bahan Baku Masuk',
+            'subtitle' => 'Data Bahan Baku Masuk',
             'masuk' => $masuk,
         ];
 
@@ -55,21 +56,21 @@ class MasukController extends BaseController
             $date = date('y-m-d');
         }
 
-        $data = [
+        $this->dagingmasuk->save([
             'tanggal' => $date,
             'jumlah' => $this->request->getVar('jumlah'),
             'id_jenis_daging' => $this->request->getVar('id_jenis_daging')
-        ];
+        ]);
 
         $this->session->setFlashdata('pesan', 'Data berhasil disimpan');
-        $this->dagingmasuk->save($data);
 
         return redirect()->to('masuk');
     }
 
     public function delete($id)
     {
-        $this->dagingmasuk->hapus($id);
+        // $this->dagingmasuk->hapus($id);
+        $this->dagingmasuk->delete($id);
         $this->session->setFlashdata('pesan', 'Data berhasil dihapus');
 
         return redirect()->back();
@@ -79,10 +80,10 @@ class MasukController extends BaseController
     {
 
         $data = [
-            'title' => 'Edit Daging Masuk',
+            'title' => 'Edit Bahan Baku Masuk',
             'menu' => 'masuk',
-            'page' => 'Info Masuk',
-            'subtitle' => 'Edit Data Daging Masuk',
+            'page' => 'Info Bahan Baku Masuk',
+            'subtitle' => 'Edit Data Bahan Baku Masuk',
             'masuk' => $this->dagingmasuk->gabs($id),
             'daging' => $this->dagingModel->findAll()
         ];

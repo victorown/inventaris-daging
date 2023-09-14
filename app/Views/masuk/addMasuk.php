@@ -26,12 +26,12 @@
         <?= csrf_field(); ?>
         <div class="card px-3 py-2">
             <div class="form-group mb-3">
-                <label class="form-control-label" for="basic-url">Jenis Daging</label>
+                <label class="form-control-label" for="basic-url">Bahan Baku</label>
 
                 <select class="form-control" name="id_jenis_daging">
-                    <option>-- Pilih Jenis Daging --</option>
+                    <option>-- Pilih Bahan Baku --</option>
                     <?php foreach ($jenis as $j) : ?>
-                        <option value="<?= $j['iddaging'] ?>"><?= $j['nama_jenis'] ?></option>
+                        <option value="<?= $j['id'] ?>"><?= $j['bahan_baku'] ?> - <?= $j['nama_jenis'] ?></option>
                     <?php endforeach ?>
                 </select>
             </div>

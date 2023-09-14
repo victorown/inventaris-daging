@@ -41,7 +41,8 @@
                 <thead>
                     <tr>
                         <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">No</th>
-                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Daging</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Bahan Baku</th>
+                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Jenis Bahan Baku</th>
                         <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Jumlah</th>
                         <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Tanggal</th>
                         <th class="text-secondary text-uppercase opacity-7 text-xs ps-2 font-weight-bolder">Aksi</th>
@@ -51,6 +52,7 @@
                     <?php foreach ($masuk as $x => $d) : ?>
                         <tr>
                             <td><?= $x + 1 ?></td>
+                            <td><?= $d->bahan_baku ?></td>
                             <td><?= $d->nama_jenis ?></td>
                             <td><?= $d->jumlah ?></td>
                             <td><?= $d->tanggal ?></td>
@@ -62,7 +64,7 @@
                                         </a>
                                     </div>
                                     <div class="me-2">
-                                        <!-- <form action="deleteMasuk/<?= $d->id ?>" method="POST">
+                                        <!-- <form action="deleteMasuk/<?= $d->id ?>" method="GET">
                                             <?= csrf_field(); ?>
                                             <button class="btn btn-danger btn-xs text-xs" onclick="return confirm('Apakah anda yakin?')" type="submit">Hapus</button>
                                         </form> -->

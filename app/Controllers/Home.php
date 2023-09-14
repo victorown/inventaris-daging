@@ -43,16 +43,16 @@ class Home extends BaseController
 
         // ini foreach untuk alert stok dalam gudang daging
         foreach ($daging as $jenis) {
-            $total_masuk = $this->masukmodel->where('id_jenis_daging', $jenis['iddaging'])->selectSum('jumlah')->get()->getRow()->jumlah;
-            $total_keluar = $this->keluarmodel->where('id_jenis_daging', $jenis['iddaging'])->selectSum('jumlah')->get()->getRow()->jumlah;
+            $total_masuk = $this->masukmodel->where('id_jenis_daging', $jenis['id'])->selectSum('jumlah')->get()->getRow()->jumlah;
+            $total_keluar = $this->keluarmodel->where('id_jenis_daging', $jenis['id'])->selectSum('jumlah')->get()->getRow()->jumlah;
 
-            $data['total_daging_masuk'][$jenis['iddaging']] = $total_masuk;
-            $data['total_daging_keluar'][$jenis['iddaging']] = $total_keluar;
+            $data['total_daging_masuk'][$jenis['id']] = $total_masuk;
+            $data['total_daging_keluar'][$jenis['id']] = $total_keluar;
 
             $stokmin = 20;
             $stok = $total_masuk - $total_keluar;
             if ($stok <= $stokmin) {
-                $data['alert'][$jenis['iddaging']] = "Stok jenis daging <b>{$jenis['nama_jenis']}</b> di bawah <b>$stokmin</b>";
+                $data['alert'][$jenis['id']] = "Stok Bahan Baku <b>{$jenis['bahan_baku']}</b> <b>{$jenis['nama_jenis']}</b> di bawah <b>$stokmin</b>";
             }
         }
 

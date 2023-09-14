@@ -6,16 +6,16 @@ use CodeIgniter\Model;
 
 class KeluarModel extends Model
 {
-    protected $table = 'info_daging_keluar';
+    protected $table = 'bb_keluar';
     protected $primaryKey = 'id';
     protected $allowedFields = ['tanggal', 'jumlah', 'id_jenis_daging'];
 
     public function gabs_edit($id)
     {
-        return $this->table('info_daging_keluar')
-            ->select('info_daging_keluar.*, jenis_daging.nama_jenis')
-            ->join('jenis_daging', 'jenis_daging.iddaging = info_daging_keluar.id_jenis_daging')
-            ->where('info_daging_keluar.id', $id)
+        return $this->table('bb_keluar')
+            ->select('bb_keluar.*, bahan_baku.bahan_baku, bahan_baku.nama_jenis')
+            ->join('bahan_baku', 'bahan_baku.id = bb_keluar.id_jenis_daging')
+            ->where('bb_keluar.id', $id)
             ->get()
             ->getrow();
     }
@@ -24,8 +24,8 @@ class KeluarModel extends Model
     {
         $builder = $this->db->table($this->table);
         $builder->select('*');
-        $builder->join('jenis_daging', 'jenis_daging.iddaging = info_daging_keluar.id_jenis_daging', 'left');
-        $builder->select('jenis_daging.nama_jenis');
+        $builder->join('bahan_baku', 'bahan_baku.id = bb_keluar.id_jenis_daging', 'left');
+        $builder->select('bb_keluar.*, bahan_baku.bahan_baku, bahan_baku.nama_jenis');
 
         $query = $builder->get();
         return $query->getResult();
